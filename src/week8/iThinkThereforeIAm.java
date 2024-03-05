@@ -1,4 +1,4 @@
-package wekk8;
+package week8;
 
 import java.util.Scanner;
 
@@ -10,10 +10,11 @@ public class iThinkThereforeIAm {
 
         System.out.println("WEEK 8 - LAB 7");
 
+        //initialize varibles
         String sentence;
-        String traits = " ";
         String totalTraits = "The qualities are ";
 
+        //prompt user for traits and stores lines into sentence
         System.out.println("Please enter sentences, . to end");
         sentence = keyboard.nextLine();
 
@@ -26,7 +27,7 @@ public class iThinkThereforeIAm {
             }
             sentence = keyboard.nextLine();
 
-        } //end of while
+        } //end of while loop
 
         System.out.println( totalTraits);
 
